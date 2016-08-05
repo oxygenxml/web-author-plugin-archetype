@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archetype-descriptor name="basic">.
+
+  <requiredProperties>
+    <requiredProperty key="plugin-id">
+      <defaultValue>Sample.Plugin.ID</defaultValue>
+    </requiredProperty>
+    <requiredProperty key="plugin-name">
+      <defaultValue>Template Name</defaultValue>
+    </requiredProperty>
+    <requiredProperty key="plugin-description">
+      <defaultValue>Template Description</defaultValue>
+    </requiredProperty>
+    <requiredProperty key="plugin-version">
+      <defaultValue>1.0</defaultValue>
+    </requiredProperty>
+    <requiredProperty key="plugin-vendor">
+      <defaultValue>Vendor</defaultValue>
+    </requiredProperty>
+  </requiredProperties>
+
+  <fileSets>
+    <fileSet filtered="true" packaged="true" encoding="UTF-8">
+      <directory>src/main/java</directory>
+      <includes>
+        <include>**/*.java</include>
+      </includes>
+    </fileSet>
+
+    <fileSet filtered="false" packaged="false" encoding="UTF-8">
+      <directory>web</directory>
+    </fileSet>
+
+    <fileSet filtered="true" packaged="false" encoding="UTF-8">
+      <directory/>
+      <includes>
+        <include>assembly.xml</include>
+        <include>assemblyComponent.xml</include>
+        <include>plugin.xml</include>
+      </includes>
+    </fileSet>
+  </fileSets>
+</archetype-descriptor>
