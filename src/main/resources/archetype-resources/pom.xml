@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <project
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
-	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<modelVersion>4.0.0</modelVersion>
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+    xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
 
   <groupId>${groupId}</groupId>
   <artifactId>${artifactId}</artifactId>
@@ -22,7 +22,7 @@
     </repository>
   </repositories>
 
-	<dependencies>
+  <dependencies>
     <dependency>
       <groupId>com.oxygenxml</groupId>
       <artifactId>oxygen-webapp</artifactId>
@@ -38,9 +38,9 @@
       <scope>provided</scope>
     </dependency>
   </dependencies>
-	
-	<build>
-	  <finalName>${project.artifactId}-${project.nosnapshot.version}</finalName>
+
+  <build>
+    <finalName>${project.artifactId}-${project.nosnapshot.version}</finalName>
     <plugins>
 
       <!-- remove the -SNAPSHOT from packaged plugin -->
@@ -70,32 +70,32 @@
         <artifactId>maven-jar-plugin</artifactId>
         <version>2.2</version>
         <configuration>
-        <!-- We only want the final JAR package in the target folder so that it's easier for users to identify it.-->
+          <!-- We only want the final JAR package in the target folder so that it's easier for users to identify it.-->
           <outputDirectory>${project.build.directory}/build</outputDirectory>
         </configuration>
       </plugin>
 
-			<plugin>
+      <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-assembly-plugin</artifactId>
         <version>2.6</version>
-				<executions>
-					<execution>
-						<id>make-assembly</id>
-						<phase>package</phase>
-						<goals>
-							<goal>single</goal>
-						</goals>
-						<configuration>
-							<archiveBaseDirectory>${project.basedir}</archiveBaseDirectory>
-							<descriptors>
-								<descriptor>assembly.xml</descriptor>
-							</descriptors>
-						</configuration>
-					</execution>
-				</executions>
-			</plugin>
-		</plugins>
+        <executions>
+          <execution>
+            <id>make-assembly</id>
+            <phase>package</phase>
+            <goals>
+              <goal>single</goal>
+            </goals>
+            <configuration>
+              <archiveBaseDirectory>${project.basedir}</archiveBaseDirectory>
+              <descriptors>
+                <descriptor>assembly.xml</descriptor>
+              </descriptors>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
 
-	</build>
+  </build>
 </project>
