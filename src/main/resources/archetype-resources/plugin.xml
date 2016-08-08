@@ -25,6 +25,6 @@
   <!-- Example extensions: -->
   <extension type="WebappServlet" class="${groupId}.SampleWebappServletPluginExtension"/>
 
-  <!-- You can access static files at the XML_WEB_AUTHOR/plugin-resources/PLUGIN_NAME_STATIC -->
+  <!-- You can access static files at XML_WEB_AUTHOR/plugin-resources/PLUGIN_NAME_STATIC -->
   <extension type="WebappStaticResourcesFolder" path="web/static/" href="PLUGIN_NAME_STATIC"/>
 </plugin>
