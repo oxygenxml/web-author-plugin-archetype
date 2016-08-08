@@ -2,21 +2,10 @@
 <archetype-descriptor name="basic">.
 
   <requiredProperties>
-    <requiredProperty key="plugin-id">
-      <defaultValue>Sample.Plugin.ID</defaultValue>
-    </requiredProperty>
-    <requiredProperty key="plugin-name">
-      <defaultValue>Template Name</defaultValue>
-    </requiredProperty>
-    <requiredProperty key="plugin-description">
-      <defaultValue>Template Description</defaultValue>
-    </requiredProperty>
-    <requiredProperty key="plugin-version">
-      <defaultValue>1.0</defaultValue>
-    </requiredProperty>
-    <requiredProperty key="plugin-vendor">
-      <defaultValue>Vendor</defaultValue>
-    </requiredProperty>
+    <requiredProperty key="plugin-id" />
+    <requiredProperty key="plugin-name" />
+    <requiredProperty key="plugin-description" />
+    <requiredProperty key="plugin-vendor" />
   </requiredProperties>
 
   <fileSets>

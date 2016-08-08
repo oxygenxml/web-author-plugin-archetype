@@ -8,7 +8,7 @@
     id="${plugin-id}"
     name="${plugin-name}"
     description="${plugin-description}"
-    version="${plugin-version}"
+    version="${version}"
     vendor="${plugin-vendor}">
 
   <runtime>
