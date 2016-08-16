@@ -2,7 +2,7 @@
   <fileSets>
     <fileSet>
       <directory>web</directory>
-      <outputDirectory>/web</outputDirectory>
+      <outputDirectory>web</outputDirectory>
       <includes>
         <include>**/*</include>
       </includes>
@@ -12,11 +12,10 @@
   <files>
     <file>
       <source>target/build/${project.build.finalName}.jar</source>
-      <outputDirectory>/lib</outputDirectory>
+      <outputDirectory>lib</outputDirectory>
     </file>
     <file>
       <source>plugin.xml</source>
-      <outputDirectory>/</outputDirectory>
       <filtered>true</filtered>
     </file>
   </files>
@@ -26,7 +25,7 @@
     <dependencySet>
       <unpack>false</unpack>
       <scope>runtime</scope>
-      <outputDirectory>/lib</outputDirectory>
+      <outputDirectory>lib</outputDirectory>
       <useProjectArtifact>false</useProjectArtifact>
     </dependencySet>
   </dependencySets>
