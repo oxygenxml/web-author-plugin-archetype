@@ -7,6 +7,8 @@
   <version>18.0</version>
 
   <name>Archetype - web-author-plugin-archetype</name>
+  <description>An archetype used to start developing an oXygen Web Author plugin</description>
+  <url>https://github.com/oxygenxml/web-author-plugin-archetype</url>
   
   <licenses>
     <license>
@@ -15,4 +17,10 @@
       <distribution>repo</distribution>
     </license>
   </licenses>
+  
+  <scm>
+    <connection>scm:git:git://github.com/oxygenxml/web-author-plugin-archetype.git</connection>
+    <developerConnection>scm:git:ssh://github.com/oxygenxml/web-author-plugin-archetype.git</developerConnection>
+    <url>https://github.com/oxygenxml/web-author-plugin-archetype</url>
+  </scm>
 </project>
