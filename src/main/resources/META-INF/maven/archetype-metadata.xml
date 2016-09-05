@@ -2,10 +2,18 @@
 <archetype-descriptor name="basic">.
 
   <requiredProperties>
-    <requiredProperty key="plugin-id" />
-    <requiredProperty key="plugin-name" />
-    <requiredProperty key="plugin-description" />
-    <requiredProperty key="plugin-vendor" />
+    <requiredProperty key="plugin-id">
+      <defaultValue>${artifactId}</defaultValue>
+    </requiredProperty>
+    <requiredProperty key="plugin-name" >
+      <defaultValue>${artifactId}</defaultValue>
+    </requiredProperty>
+    <requiredProperty key="plugin-description" >
+      <defaultValue>A plugin for oXygen XML Web Author</defaultValue>
+    </requiredProperty>
+    <requiredProperty key="plugin-vendor" >
+      <defaultValue>Example, Inc.</defaultValue>
+    </requiredProperty>
   </requiredProperties>
 
   <fileSets>
