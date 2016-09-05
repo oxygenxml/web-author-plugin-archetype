@@ -9,10 +9,10 @@
       <defaultValue>${artifactId}</defaultValue>
     </requiredProperty>
     <requiredProperty key="plugin-description" >
-      <defaultValue>A plugin for oXygen XML Web Author</defaultValue>
+      <defaultValue>A plugin for oXygen XML Web Author.</defaultValue>
     </requiredProperty>
     <requiredProperty key="plugin-vendor" >
-      <defaultValue>Example, Inc.</defaultValue>
+      <defaultValue>${groupId}</defaultValue>
     </requiredProperty>
   </requiredProperties>
 
