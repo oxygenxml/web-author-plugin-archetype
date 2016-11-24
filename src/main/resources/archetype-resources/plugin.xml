@@ -14,10 +14,7 @@
   <runtime>
     <librariesFolder name="lib" />
     <library name="target/classes" />
-
-    <!--
-    <librariesFolder name="MAVEN_LOCAL_REPOSITORY_LOCATION"/>
-    -->
+    <librariesFolder name="target/lib" />
   </runtime>
 
   <!-- Add extensions here-->
