@@ -29,7 +29,6 @@
       <includes>
         <include>web/**</include>
         <include>assembly.xml</include>
-        <include>assemblyComponent.xml</include>
         <include>plugin.xml</include>
       </includes>
     </fileSet>
