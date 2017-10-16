@@ -1,0 +1,26 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.oxygenxml</groupId>
+  <artifactId>web-author-plugin-archetype</artifactId>
+  <version>20.0</version>
+
+  <name>Archetype - web-author-plugin-archetype</name>
+  <description>An archetype used to start developing an oXygen Web Author plugin</description>
+  <url>https://github.com/oxygenxml/web-author-plugin-archetype</url>
+  
+  <licenses>
+    <license>
+      <name>Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  
+  <scm>
+    <connection>scm:git:git://github.com/oxygenxml/web-author-plugin-archetype.git</connection>
+    <developerConnection>scm:git:ssh://github.com/oxygenxml/web-author-plugin-archetype.git</developerConnection>
+    <url>https://github.com/oxygenxml/web-author-plugin-archetype</url>
+  </scm>
+</project>
