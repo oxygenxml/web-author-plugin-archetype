@@ -3,7 +3,7 @@
 <!DOCTYPE plugin SYSTEM "../plugin.dtd">
 
 <plugin
-    class="ro.sync.exml.plugin.Plugin"
+    class="${package}.SamplePluginExtension"
 
     id="${plugin-id}"
     name="${plugin-name}"
