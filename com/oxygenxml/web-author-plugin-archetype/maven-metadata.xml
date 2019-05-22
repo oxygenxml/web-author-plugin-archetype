@@ -3,7 +3,7 @@
   <groupId>com.oxygenxml</groupId>
   <artifactId>web-author-plugin-archetype</artifactId>
   <versioning>
-    <release>21.1</release>
+    <release>22.0</release>
     <versions>
       <version>18.1</version>
       <version>19.0</version>
@@ -13,7 +13,8 @@
       <version>21.0</version>
       <version>20.1.1</version>
       <version>21.1</version>
+      <version>22.0</version>
     </versions>
-    <lastUpdated>20190522063154</lastUpdated>
+    <lastUpdated>20190522104854</lastUpdated>
   </versioning>
 </metadata>
