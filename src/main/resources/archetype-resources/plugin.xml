@@ -24,4 +24,7 @@
 
   <!-- You can access static files at XML_WEB_AUTHOR/plugin-resources/${plugin-id}/ -->
   <extension type="WebappStaticResourcesFolder" path="web/static/" href="${plugin-id}"/>
+  
+  <!-- Load a custom CSS file -->
+  <extension type="AuthorStylesheet" href="web/static/custom.css"/>
 </plugin>
