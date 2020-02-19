@@ -25,9 +25,8 @@
   <dependencies>
     <dependency>
       <groupId>com.oxygenxml</groupId>
-      <artifactId>oxygen-webapp</artifactId>
+      <artifactId>oxygen-sdk</artifactId>
       <version>${oxygen.sdk.version}</version>
-      <classifier>classes</classifier>
       <scope>provided</scope>
     </dependency>
 
