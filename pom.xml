@@ -17,6 +17,16 @@
       <distribution>repo</distribution>
     </license>
   </licenses>
+
+  <developers>
+    <developer>
+      <name>Cristi Talau</name>
+      <email>cristi_talau@sync.ro</email>
+      <roles>
+        <role>manager</role>
+      </roles>
+    </developer>
+  </developers>
   
   <scm>
     <connection>scm:git:git://github.com/oxygenxml/web-author-plugin-archetype.git</connection>

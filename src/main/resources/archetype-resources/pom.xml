@@ -8,6 +8,16 @@
   <artifactId>${artifactId}</artifactId>
   <version>${version}</version>
 
+  <developers>
+    <developer>
+      <name>Cristi Talau</name>
+      <email>cristi_talau@sync.ro</email>
+      <roles>
+        <role>manager</role>
+      </roles>
+    </developer>
+  </developers>
+
   <properties>
     <oxygen.sdk.version>23.0.0.0</oxygen.sdk.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
