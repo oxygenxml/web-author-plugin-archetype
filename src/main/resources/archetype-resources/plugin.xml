@@ -9,7 +9,7 @@
     name="${plugin-name}"
     description="${plugin-description}"
     version="${project.nosnapshot.version}"
-    vendor="${plugin-vendor}">
+    vendor="Syncro Soft">
 
   <runtime>
     <librariesFolder name="lib" />
