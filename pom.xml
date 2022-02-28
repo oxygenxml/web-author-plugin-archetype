@@ -4,7 +4,7 @@
 
   <groupId>com.oxygenxml</groupId>
   <artifactId>web-author-plugin-archetype</artifactId>
-  <version>24.1</version>
+  <version>25.0</version>
 
   <name>Archetype - web-author-plugin-archetype</name>
   <description>An archetype used to start developing an oXygen Web Author plugin</description>
