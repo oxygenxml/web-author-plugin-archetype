@@ -5,9 +5,10 @@
   <groupId>com.oxygenxml</groupId>
   <artifactId>web-author-plugin-archetype</artifactId>
   <version>26.0</version>
+  <packaging>maven-archetype</packaging>
 
   <name>Archetype - web-author-plugin-archetype</name>
-  <description>An archetype used to start developing an oXygen Web Author plugin</description>
+  <description>An archetype used to start developing an Oxygen Web Author plugin</description>
   <url>https://github.com/oxygenxml/web-author-plugin-archetype</url>
   
   <licenses>
@@ -33,4 +34,14 @@
     <developerConnection>scm:git:ssh://github.com/oxygenxml/web-author-plugin-archetype.git</developerConnection>
     <url>https://github.com/oxygenxml/web-author-plugin-archetype</url>
   </scm>
+  
+    <build>
+    <extensions>
+      <extension>
+        <groupId>org.apache.maven.archetype</groupId>
+        <artifactId>archetype-packaging</artifactId>
+        <version>3.1.1</version>
+      </extension>
+    </extensions>
+  </build>
 </project>
