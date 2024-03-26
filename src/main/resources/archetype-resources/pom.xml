@@ -30,6 +30,12 @@
       <artifactId>oxygen-sdk</artifactId>
       <version>${oxygen.sdk.version}</version>
       <scope>provided</scope>
+      <exclusions>
+        <exclusion>
+          <groupId>com.jidesoft</groupId>
+          <artifactId>jide-oss</artifactId>
+        </exclusion>
+      </exclusions>
     </dependency>
   </dependencies>
 
