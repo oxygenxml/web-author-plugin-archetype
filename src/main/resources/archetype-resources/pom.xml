@@ -33,7 +33,7 @@
       <exclusions>
         <exclusion>
           <groupId>com.oxygenxml</groupId>
-          <artifactId>oxygen-jide</artifactId>
+          <artifactId>oxygen-patched-jide</artifactId>
         </exclusion>
       </exclusions>
     </dependency>
